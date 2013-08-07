@@ -1,7 +1,11 @@
 syntax enable
 syntax on                    " 开启文件类型侦测
 set encoding=utf-8
-set nu
+set nu						 " 显示行号
+set autoread				 " 外部有修改，自动重新读入
+set hls						 " 高亮搜索匹配项
+set helplang=cn
+set foldmethod=syntax
 set smartindent
 set tabstop=4
 set softtabstop=4
